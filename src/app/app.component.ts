@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngrx-app';
+  name: string = 'Seg'; // property
 }
+
+
+//ng generate effect User --root -m app.module.ts
